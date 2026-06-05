@@ -1,0 +1,23 @@
+# MasterHttpRelayVPN-GUI — Python dependencies
+#
+# Install with:  pip install -r requirements.txt
+# Or offline:    run install_deps.bat / install_deps.sh
+#
+# ── GUI ───────────────────────────────────────────────────────────────────────
+PyQt6>=6.6.0
+psutil>=5.9.0             # Real-time traffic monitoring in dashboard
+
+# ── Engine (already in engine/src, pinned here for reference) ─────────────────
+cryptography==46.0.0      # MITM certificate generation
+h2>=4.1.0                 # HTTP/2 relay transport
+hpack>=4.0.0              # HTTP/2 header compression (h2 dep)
+hyperframe>=6.0.1         # HTTP/2 framing (h2 dep)
+
+# ── Optional engine extras ────────────────────────────────────────────────────
+brotli>=1.1.0             # Brotli content-encoding support
+zstandard>=0.22.0         # Zstd content-encoding support
+certifi>=2023.0.0         # Up-to-date CA bundle (used by engine)
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-qt>=4.2.0          # Qt widget testing helpers
