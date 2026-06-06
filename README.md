@@ -398,6 +398,13 @@ A: Switch relay types (e.g., from Apps Script to Cloudflare Worker), or deploy a
 
 ---
 
+## 🔧 Related Tools
+
+- [V2RayConverter](https://github.com/Sparky2273/V2RayConverter) — Convert V2Ray/Xray
+  configs between URI and JSON format
+
+---
+
 ## 🙏 Credits & Core Engine
 
 This GUI is built on top of the **MasterHttpRelayVPN** core proxy engine by [@masterking32](https://github.com/masterking32).
