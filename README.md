@@ -247,7 +247,7 @@ Run the app directly from Python source — useful for development or if you wan
 
 Download and extract the ZIP from GitHub, or clone:
 ```bash
-git clone https://github.com/YOUR_USERNAME/MasterHttpRelayVPN.git
+git clone https://github.com/Sparky2273/MasterHttpRelayVPN.git
 cd MasterHttpRelayVPN
 ```
 
